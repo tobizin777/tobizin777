@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Galada&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+ background-image: url("img/eu.jpg") ;
+    background-size: 80px 60px;  
+  background-size: cover ;
+background-position: center;
+}
+
+.container {
+    font-size: 37vw;
+    color: mediumpurple;
+    animation: 2s ease-in-out infinite corazon;
+    text-shadow: 4px 4px 7px rgba(2, 2, 0, 0.6);
+}
+
+.container .contenido {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    font-family: 'Galada', cursive;
+}
+
+
+.container .contenido h1 {
+    font-size: 50px;
+}
+
+.container .contenido p {
+    font-size: 27px;
+}
+
+@keyframes corazon {
+
+    50% {
+        transform: scale(1.3);
+    }
+
+}
